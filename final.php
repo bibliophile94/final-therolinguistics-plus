@@ -34,8 +34,8 @@ echo "Carve Your Message";
     <input type="submit" value="Save">
 </form>
 <script>
-var initialX = Math.floor(Math.random()*window.innerWidth);
-var initialY = Math.floor(Math.random()*window.innerHeight);
+var initialX = Math.floor(Math.random()*screen.width);
+var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
 texts.style.fontSize = fontSize;
 var height = (texts.clientHeight + 1) + "px";
