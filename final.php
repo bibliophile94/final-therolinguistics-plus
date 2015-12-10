@@ -31,10 +31,19 @@ echo $safe_content;
     <input type="submit" value="Save">
 </form>
 <script>
-$('#content').click(function() {
-    $('form').removeClass('hidden');
-    $('#content').addClass('hidden');
-});
+	setInterval(
+	function(){
+	var img = document.createElement('img');
+	img.style.position = "fixed";
+	var x = Math.floor(Math.random()*screen.width);
+	img.style.top = y;
+	console.log(x);
+	var y = Math.floor(Math.random()*screen.height);
+	img.style.left = x + "px";
+	console.log(y);
+	img.setAttribute("src", "message"+Math.floor(Math.random() * (3))+".png");
+	img.style.top = y + "px";
+	document.body.appendChild(img);
 </script>
 </body>
 </html>
