@@ -29,8 +29,12 @@ var done = false;
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
 	if (done == false)
-	{
-	if (x<=rightBound && x>=leftBound)
+	isOverlapping();
+	document.body.appendChild(img);
+	},100);
+function isOverlapping()
+{
+		if (x<=rightBound && x>=leftBound)
 	{
 		if (y>=lowerBound && y<=upperBound)
 		{
@@ -41,9 +45,7 @@ var done = false;
 			
 		}
 	}
-	}
-	document.body.appendChild(img);
-	},100);
+}
 function checkBounds()
 {
 	if (lastX<0 || lastX>screen.width)
