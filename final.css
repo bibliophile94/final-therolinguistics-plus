@@ -21,7 +21,7 @@ img {
     height: auto;
     width: auto;
 	color: blue;
-	display: inline;
+	display: inline-block;
 }
 #after{
 	border-style: solid;
@@ -30,7 +30,7 @@ img {
     height: auto;
     width: auto;
 	color: green;
-	display: inline;
+	display: inline-block;
 }
 #Wrapping{
 	border-style: solid;
@@ -39,5 +39,5 @@ img {
     height: auto;
     width: auto;
 	color: #c68c65;
-	display: inline;
+	display: inline-block;
 }
