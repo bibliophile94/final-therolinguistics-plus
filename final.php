@@ -42,7 +42,9 @@ var width = (texts.clientWidth + 1) + "px";
 var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
 var upperBound = window.innerHeight/2+(height/2);
-var lowerBound = window.innerHeight/2-(height/2)
+var lowerBound = window.innerHeight/2-(height/2);
+console.log(leftBound + " " + rightBound);
+console.log(upperBound + " " + lowerBound);
 	setInterval(
 	function(){
 	var img = document.createElement('img');
