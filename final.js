@@ -1,5 +1,5 @@
-var initialX = Math.floor(Math.random()*screen.width);
-var initialY = Math.floor(Math.random()*screen.height);
+var initialX = Math.floor(Math.random()*window.innerWidth);
+var initialY = Math.floor(Math.random()*window.innerHeight);
 var lastX = initialX;
 var lastY = initialY;
 var texts = document.getElementById("Wrapping");
