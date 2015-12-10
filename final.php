@@ -31,7 +31,7 @@ $safe_content = htmlentities($content);
 echo "Carve Your Message";
 
 ?></textarea>
-    <input type="text" value="Carve" style="visibility: collapse;">
+    <input type="submit" value="Carve" style="visibility: collapse;">
 </form>
 <script src="final.js">
 		</script>

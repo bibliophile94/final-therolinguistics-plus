@@ -2,7 +2,7 @@
 body {
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
-	color: #c68c65;
+	color: red;
 	background: url("moss2.jpg");
 	background-size: 100%;
 	background-position:top;
@@ -17,4 +17,5 @@ img {
 	opacity: 1;
     height: auto;
     width: auto;
+	color: #c68c65;
 }
