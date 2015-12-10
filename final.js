@@ -1,5 +1,7 @@
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
+var lastX = initialX;
+var lastY = initialY;
 var texts = document.getElementById("Wrapping");
 var height = (texts.clientHeight)+1;
 var width = (texts.clientWidth)+1;
@@ -17,11 +19,21 @@ var done = false;
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = initialX-10+Math.floor(Math.random()*20);
-	initialX = x;
+	var x = lastX-10+Math.floor(Math.random()*20);
+	lastX = x;
+	if (lastX<0 || lastX>screen.width)
+	{
+		lastX = initialX;
+		lastY = initialY;
+	}
 	img.style.top = y + "px";
-	var y = initialY-10+Math.floor(Math.random()*20);
-	initialY = y;
+	var y = lastY-10+Math.floor(Math.random()*20);
+	lastY = y;
+	if (lastY<0 || lastY>screen.height)
+	{
+		lastX = initialX;
+		lastY = initialY;
+	}
 	img.style.left = x + "px";
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
