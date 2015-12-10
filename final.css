@@ -1,5 +1,7 @@
 
 body {
+	width: 100%;
+	height: 100%;
 	border-style: dotted;
 	border-width: 5px;
 	font-size: 60px;
@@ -10,6 +12,7 @@ body {
 	background-position:top;
 	background-repeat: vertical-align;
 	text-align: center;
+	vertical-align: middle;
 }
 img {
     opacity: 0.5;
