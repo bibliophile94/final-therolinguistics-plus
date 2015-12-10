@@ -7,7 +7,7 @@
     <title>The Mossier Tree</title>
     </head>
     <body>
-	<h1>
+	<h1 style='border:2px black solid; font-size:42px;'>
 	<?php
 
 if (file_exists('final.txt')) {
