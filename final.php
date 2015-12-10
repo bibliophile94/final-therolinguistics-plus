@@ -24,7 +24,6 @@ $safe_content = htmlentities($content);
 <div id="content">
     <?php echo $safe_content; ?>
 </div>
-</div>
 <form action="final.php">
     <textarea name="content" rows="1" cols="20"><?php
 
@@ -33,6 +32,7 @@ echo "Carve Your Message";
 ?></textarea>
     <input type="submit" value="Save">
 </form>
+</div>
 <script>
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
