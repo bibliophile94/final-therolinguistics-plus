@@ -41,7 +41,7 @@ var height = (texts.clientHeight);
 var width = (texts.clientWidth);
 document.getElementById("Wrapping").style.color = red;
 
-document.getElementById("Wrapping").style.font-size = 20px;
+document.getElementById("body").style.color = blue;
 console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
