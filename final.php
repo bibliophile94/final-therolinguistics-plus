@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="final.css">
         <meta charset="utf-8">
         <title>The Mossier Tree</title>
