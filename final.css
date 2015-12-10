@@ -13,6 +13,13 @@ body{
 	background-repeat: vertical-align;
 	text-align: center;
 }
+canvas {
+    position: absolute; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    top: 0px
+}
 img {
     opacity: 0.5;
 }
