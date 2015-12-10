@@ -39,6 +39,8 @@ var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
 var height = (texts.clientHeight + 1) + "px";
 var width = (texts.clientWidth + 1) + "px";
+console.log(height);
+console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
 var upperBound = window.innerHeight/2+(height/2);
