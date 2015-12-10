@@ -1,4 +1,6 @@
-
+html{
+	height: 100%;
+}
 body {
 	border-style: dotted;
 	border-width: 5px;
