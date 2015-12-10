@@ -1,13 +1,12 @@
 
 body {
-	font-size: 40px;
+	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
 	color: #5B4730;
 	background: url("moss2.jpg");
 	background-size: 100%;
 	background-position:top;
 	background-repeat: vertical-align;
-	display: inline;
 	text-align: center;
 }
 img {
@@ -18,5 +17,4 @@ img {
 	opacity: 1;
     height: auto;
     width: auto;
-	height: 50%;
 }
