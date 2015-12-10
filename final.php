@@ -34,12 +34,16 @@ echo "Carve Your Message";
     <input type="submit" value="Save">
 </form>
 <script>
-var initialX = Math.floor(Math.random()*screen.width);
-var initialY = Math.floor(Math.random()*screen.height);
+var initialX = Math.floor(Math.random()*window.innerWidth);
+var initialY = Math.floor(Math.random()*window.innerHeight);
 var texts = document.getElementById("Wrapping");
 texts.style.fontSize = fontSize;
 var height = (texts.clientHeight + 1) + "px";
 var width = (texts.clientWidth + 1) + "px";
+var leftBound = window.innerWidth/2-(width/2);
+var rightBound = window.innerWidth/2+(width/2);
+var upperBound = window.innerHeight/2+(height/2);
+var lowerBound = window.innerHeight/2-(height/2)
 	setInterval(
 	function(){
 	var img = document.createElement('img');
@@ -54,6 +58,11 @@ var width = (texts.clientWidth + 1) + "px";
 	console.log(y);
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
+	if (x<=rightBound && x>=leftBound)
+	{
+		if (y<=lowerBound && y>=upperBound)
+			window.alert("YAAAASSS");
+	}
 	document.body.appendChild(img);
 	},100);
 </script>
