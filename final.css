@@ -2,13 +2,12 @@
 body {
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
-	color: #c15f38;
+	color: #c68c65;
 	background: url("moss2.jpg");
 	background-size: 100%;
 	background-position:top;
 	background-repeat: vertical-align;
 	text-align: center;
-	vertical-align: middle;
 }
 img {
     opacity: 0.5;
