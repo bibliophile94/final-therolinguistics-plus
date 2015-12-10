@@ -37,11 +37,11 @@ var initialY = Math.floor(Math.random()*screen.height);
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = initialX-5+Math.floor(Math.random()*10);
+	var x = initialX-50+Math.floor(Math.random()*100);
 	initialX = x;
-	img.style.top = y;
+	img.style.top = y + "px";
 	console.log(x);
-	var y = initialY-5+Math.floor(Math.random()*10);
+	var y = initialY-50+Math.floor(Math.random()*100);
 	initialY = y;
 	img.style.left = x + "px";
 	console.log(y);
