@@ -50,6 +50,7 @@ var upperBound = window.innerHeight/2+(height/2);
 var lowerBound = window.innerHeight/2-(height/2);
 console.log(leftBound + " " + rightBound);
 console.log(upperBound + " " + lowerBound);
+var done = false;
 	setInterval(
 	function(){
 	var img = document.createElement('img');
@@ -62,6 +63,8 @@ console.log(upperBound + " " + lowerBound);
 	img.style.left = x + "px";
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
+	if (done == false)
+	{
 	if (x<=rightBound && x>=leftBound)
 	{
 		if (y>=lowerBound && y<=upperBound)
@@ -69,7 +72,10 @@ console.log(upperBound + " " + lowerBound);
 			var elem = document.getElementById("Wrapping");
 			elem.color = "green";
 			window.alert("YAAAASSS...the Moss approves");
+			done = true;
+			
 		}
+	}
 	}
 	document.body.appendChild(img);
 	},100);
