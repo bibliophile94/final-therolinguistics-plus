@@ -1,6 +1,10 @@
+html, body {
+   height: 98%;
+   width: 98%;
+   margin: 0;
+   padding: 0;
+}
 body{
-	width: 98%;
-	height: 98%;
   border-style: dotted;
 	border-width: 3px;
 	font-size: 60px;
