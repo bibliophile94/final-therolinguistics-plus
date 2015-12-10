@@ -21,19 +21,10 @@ var done = false;
 	img.style.position = "fixed";
 	var x = lastX-10+Math.floor(Math.random()*20);
 	lastX = x;
-	if (lastX<0 || lastX>screen.width)
-	{
-		lastX = initialX;
-		lastY = initialY;
-	}
 	img.style.top = y + "px";
 	var y = lastY-10+Math.floor(Math.random()*20);
 	lastY = y;
-	if (lastY<0 || lastY>screen.height)
-	{
-		lastX = initialX;
-		lastY = initialY;
-	}
+	checkBounds();
 	img.style.left = x + "px";
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
@@ -53,3 +44,17 @@ var done = false;
 	}
 	document.body.appendChild(img);
 	},100);
+function checkBounds()
+{
+	if (lastX<0 || lastX>screen.width)
+	{
+		lastX = initialX;
+		lastY = initialY;
+	}
+	if (lastY<0 || lastY>screen.height)
+	{
+		lastX = initialX;
+		lastY = initialY;
+	}
+	
+}
