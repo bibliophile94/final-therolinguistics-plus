@@ -3,9 +3,9 @@ var initialY = Math.floor(Math.random()*window.innerHeight);
 var lastX = initialX;
 var lastY = initialY;
 var texts = document.getElementById("Wrapping");
-var height = (texts.clientHeight)+1;
-var width = (texts.clientWidth)+1;
-document.getElementById("Wrapping").style.visibility = "visible";
+var height = (texts.clientHeight);
+var width = (texts.clientWidth);
+texts.style.visibility = "visible";
 console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
@@ -32,6 +32,10 @@ var done = false;
 	isOverlapping();
 	document.body.appendChild(img);
 	},100);
+function initialMoss()
+{
+	
+}
 function isOverlapping(x,y)
 {
 		if (x<=rightBound && x>=leftBound)
