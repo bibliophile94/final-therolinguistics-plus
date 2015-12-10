@@ -7,7 +7,6 @@
     <title>The Mossier Tree</title>
     </head>
     <body>
-	<div id="before">Text</div>
 </div>
 	<div id="Wrapping">
 	<?php
@@ -27,7 +26,6 @@ $safe_content = htmlentities($content);
     <?php echo $safe_content; ?>
 </div>
 </div>
-<div id="after">Text</div>
 <form action="final.php" onSubmit="You defaced another tree">
     <textarea name="content" rows="1" cols="20"><?php
 
