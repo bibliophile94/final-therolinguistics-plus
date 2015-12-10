@@ -64,7 +64,6 @@ console.log(upperBound + " " + lowerBound);
 	img.style.top = y + "px";
 	if (x<=rightBound && x>=leftBound)
 	{
-		window.alert("right X")
 		if (y>=lowerBound && y<=upperBound)
 			window.alert("YAAAASSS...the Moss approves");
 	}
