@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="final.css">
+	<script src="final.js"></script>
 	<meta charset="utf-8">
     <title>The Mossier Tree</title>
     </head>
@@ -33,7 +35,6 @@ echo "Carve Your Message";
 ?></textarea>
     <input type="submit" value="Carve">
 </form>
-<script src="final.js">
-		</script>
+
 </body>
 </html>
