@@ -9,7 +9,6 @@ body {
 	background-repeat: vertical-align;
 	display: inline;
 	text-align: center;
-	height: 50%;
 }
 img {
     opacity: 0.5;
@@ -19,4 +18,5 @@ img {
 	opacity: 1;
     height: auto;
     width: auto;
+	height: 50%;
 }
