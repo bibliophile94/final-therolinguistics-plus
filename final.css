@@ -1,7 +1,12 @@
-
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
 body{
   border-style: dotted;
-	border-width: 5px;
+	border-width: 3px;
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
 	color: red;
