@@ -7,7 +7,7 @@
     <title>The Mossier Tree</title>
     </head>
     <body>
-	<div id="Wrapping">
+	<h1>
 	<?php
 
 if (file_exists('final.txt')) {
@@ -24,7 +24,7 @@ $safe_content = htmlentities($content);
 <div id="content">
     <?php echo $safe_content; ?>
 </div>
-</div>
+</h1>
 <form action="final.php" onSubmit="You defaced another tree">
     <textarea name="content" rows="1" cols="20"><?php
 
