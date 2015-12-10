@@ -25,7 +25,7 @@ $safe_content = htmlentities($content);
 <form action="final.php">
     <textarea name="content" rows="1" cols="20"><?php
 
-echo $safe_content;
+echo Carve Your Message;
 
 ?></textarea>
     <input type="submit" value="Save">
@@ -37,11 +37,11 @@ var initialY = Math.floor(Math.random()*screen.height);
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = initialX-50+Math.floor(Math.random()*100);
+	var x = initialX-10+Math.floor(Math.random()*20);
 	initialX = x;
 	img.style.top = y + "px";
 	console.log(x);
-	var y = initialY-50+Math.floor(Math.random()*100);
+	var y = initialY-10+Math.floor(Math.random()*20);
 	initialY = y;
 	img.style.left = x + "px";
 	console.log(y);
