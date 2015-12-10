@@ -41,4 +41,3 @@ var done = false;
 	}
 	document.body.appendChild(img);
 	},100);
-}
