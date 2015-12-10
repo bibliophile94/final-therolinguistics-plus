@@ -37,8 +37,8 @@ echo "Carve Your Message";
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
-var height = (texts.clientHeight + 1) + "px";
-var width = (texts.clientWidth + 1) + "px";
+var height = (texts.clientHeight);
+var width = (texts.clientWidth);
 console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
@@ -64,7 +64,7 @@ console.log(upperBound + " " + lowerBound);
 	if (x<=rightBound && x>=leftBound)
 	{
 		if (y<=lowerBound && y>=upperBound)
-			window.alert("YAAAASSS");
+			window.alert("YAAAASSS...the Moss approves");
 	}
 	document.body.appendChild(img);
 	},100);
