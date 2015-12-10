@@ -7,6 +7,7 @@
         <title>The Mossier Tree</title>
     </head>
     <body>
+	<span></span>
 	<div id="Wrapping">
 	<?php
 
@@ -67,7 +68,7 @@ var done = false;
 	{
 		if (y>=lowerBound && y<=upperBound)
 		{
-			var elem = document.getElementById("Wrapping");
+			var elem = document.getElementById("body");
 			elem.color = "green";
 			window.alert("YAAAASSS...the Moss approves");
 			done = true;
