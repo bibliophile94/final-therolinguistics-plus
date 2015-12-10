@@ -9,7 +9,7 @@
     <title>The Mossier Tree</title>
     </head>
     <body>
-	<canvas id="canv1" />
+	
 </div>
 	<div id="Wrapping">
 	<?php
