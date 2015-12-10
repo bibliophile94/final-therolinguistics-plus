@@ -3,7 +3,6 @@
     <head>
 	<link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="final.css">
-	<script src="final.js"></script>
 	<meta charset="utf-8">
     <title>The Mossier Tree</title>
     </head>
@@ -34,7 +33,8 @@ echo "Carve Your Message";
 ?></textarea>
     <input type="submit" value="Carve">
 </form>
-
+<script src="final.js">
+		</script>
 <!--<script>
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
