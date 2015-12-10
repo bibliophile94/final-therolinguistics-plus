@@ -25,7 +25,7 @@ $safe_content = htmlentities($content);
 <form action="final.php">
     <textarea name="content" rows="1" cols="20"><?php
 
-echo Carve Your Message;
+echo "Carve Your Message";
 
 ?></textarea>
     <input type="submit" value="Save">
