@@ -7,7 +7,6 @@
         <title>The Mossier Tree</title>
     </head>
     <body>
-	<span></span>
 	<div id="Wrapping">
 	<?php
 
@@ -26,13 +25,13 @@ $safe_content = htmlentities($content);
     <?php echo $safe_content; ?>
 </div>
 </div>
-<form action="final.php">
+<form action="final.php" onSubmit="You defaced another tree">
     <textarea name="content" rows="1" cols="20"><?php
 
 echo "Carve Your Message";
 
 ?></textarea>
-    <input type="submit" value="Carve" onSubmit="You defaced another tree">
+    <input type="submit" value="Carve">
 </form>
 <script>
 var initialX = Math.floor(Math.random()*screen.width);
