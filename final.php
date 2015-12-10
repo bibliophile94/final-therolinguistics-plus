@@ -31,14 +31,18 @@ echo $safe_content;
     <input type="submit" value="Save">
 </form>
 <script>
+var initialX = Math.floor(Math.random()*screen.width);
+var initialY = Math.floor(Math.random()*screen.height);
 	setInterval(
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = Math.floor(Math.random()*screen.width);
+	var x = initialX-5+Math.floor(Math.random()*10);
+	initialX = x;
 	img.style.top = y;
 	console.log(x);
-	var y = Math.floor(Math.random()*screen.height);
+	var y = initialY-5+Math.floor(Math.random()*10);
+	initialY = y;
 	img.style.left = x + "px";
 	console.log(y);
 	img.setAttribute("src", "dots.png");
