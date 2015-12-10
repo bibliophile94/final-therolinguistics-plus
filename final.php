@@ -39,9 +39,9 @@ var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
 var height = (texts.clientHeight);
 var width = (texts.clientWidth);
-document.getElementById("Wrapping").style.color = red;
+document.getElementById("Wrapping").style.color = "red";
 
-document.getElementById("body").style.color = blue;
+document.getElementById("body").style.color = "blue";
 console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
