@@ -9,8 +9,6 @@
     <title>The Mossier Tree</title>
     </head>
     <body>
-	
-</div>
 	<div id="Wrapping">
 	<?php
 
