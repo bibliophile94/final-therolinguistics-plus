@@ -26,8 +26,8 @@ $safe_content = htmlentities($content);
 <div id="content">
     <?php echo $safe_content; ?>
 </div>
-<div id="after">Text</div>
 </div>
+<div id="after">Text</div>
 <form action="final.php" onSubmit="You defaced another tree">
     <textarea name="content" rows="1" cols="20"><?php
 
