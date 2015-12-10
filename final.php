@@ -65,7 +65,11 @@ console.log(upperBound + " " + lowerBound);
 	if (x<=rightBound && x>=leftBound)
 	{
 		if (y>=lowerBound && y<=upperBound)
+		{
+			var elem = document.getElementById("Wrapping");
+			elem.color = "green";
 			window.alert("YAAAASSS...the Moss approves");
+		}
 	}
 	document.body.appendChild(img);
 	},100);
