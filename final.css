@@ -1,7 +1,7 @@
 
 body {
 	border-style: dotted;
-	border-width: 5px;
+	border-width: 2px;
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
 	color: red;
@@ -17,9 +17,10 @@ img {
 #Wrapping
 {
 	border-style: solid;
-	border-width: 5px;
+	border-width: 2px;
 	opacity: 1;
     height: auto;
     width: auto;
 	color: #c68c65;
+	display: inline;
 }
