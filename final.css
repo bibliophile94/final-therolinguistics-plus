@@ -10,7 +10,6 @@ body {
 	background-position:top;
 	background-repeat: vertical-align;
 	text-align: center;
-	display: table;
 }
 img {
     opacity: 0.5;
@@ -22,6 +21,5 @@ img {
     height: auto;
     width: auto;
 	color: #c68c65;
-	display: table-cell;
 	vertical-align: middle;
 }
