@@ -6,4 +6,5 @@ body {
 	background-size: 100%;
 	background-position:top;
 	background-repeat: vertical-align;
+	display: inline;
 }

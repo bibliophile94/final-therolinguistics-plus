@@ -6,6 +6,14 @@
         <title>The Mossier Tree</title>
     </head>
     <body>
+	<form action="final.php">
+    <textarea name="content" rows="1" cols="20"><?php
+
+echo $safe_content;
+
+?></textarea>
+    <input type="submit" value="Save">
+</form>
 	<?php
 
 if (file_exists('final.txt')) {
@@ -22,14 +30,7 @@ $safe_content = htmlentities($content);
 <div id="content">
     <?php echo $safe_content; ?>
 </div>
-<form action="final.php">
-    <textarea name="content" rows="1" cols="20"><?php
 
-echo $safe_content;
-
-?></textarea>
-    <input type="submit" value="Save">
-</form>
 <script>
 $('#content').click(function() {
     $('form').removeClass('hidden');
