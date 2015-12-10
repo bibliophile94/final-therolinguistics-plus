@@ -57,11 +57,9 @@ console.log(upperBound + " " + lowerBound);
 	var x = initialX-10+Math.floor(Math.random()*20);
 	initialX = x;
 	img.style.top = y + "px";
-	console.log(x);
 	var y = initialY-10+Math.floor(Math.random()*20);
 	initialY = y;
 	img.style.left = x + "px";
-	console.log(y);
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
 	if (x<=rightBound && x>=leftBound)
