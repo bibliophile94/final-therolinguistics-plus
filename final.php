@@ -7,6 +7,7 @@
         <title>The Mossier Tree</title>
     </head>
     <body>
+	<div id="Wrapping">
 	<?php
 
 if (file_exists('final.txt')) {
@@ -20,6 +21,7 @@ if (isset($_GET['content'])) {
 }
 $safe_content = htmlentities($content);
 ?>
+</div>
 <div id="content">
     <?php echo $safe_content; ?>
 </div>
@@ -34,6 +36,10 @@ echo "Carve Your Message";
 <script>
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
+var texts = document.getElementById("Wrapping");
+texts.style.fontSize = fontSize;
+var height = (texts.clientHeight + 1) + "px";
+var width = (texts.clientWidth + 1) + "px";
 	setInterval(
 	function(){
 	var img = document.createElement('img');

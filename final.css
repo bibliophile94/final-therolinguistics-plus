@@ -11,6 +11,13 @@ body {
 	text-align: center;
 }
 img {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 0.5;
+}
+#Wrapping
+{
+    position: absolute;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    white-space: nowrap;
 }
