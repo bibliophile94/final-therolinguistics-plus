@@ -21,9 +21,9 @@ if (isset($_GET['content'])) {
 }
 $safe_content = htmlentities($content);
 ?>
-</div>
 <div id="content">
     <?php echo $safe_content; ?>
+</div>
 </div>
 <form action="final.php">
     <textarea name="content" rows="1" cols="20"><?php
