@@ -37,8 +37,10 @@ echo "Carve Your Message";
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
-var height = (texts.clientHeight);
-var width = (texts.clientWidth);
+var height = (texts.clientHeight)+1;
+var width = (texts.clientWidth)+1;
+document.getElementById("Wrapping").style.visibility = "visible";
+
 document.getElementById("Wrapping").style.color = "red";
 console.log(height);
 console.log(width);
