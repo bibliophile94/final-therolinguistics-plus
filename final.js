@@ -24,7 +24,7 @@ var done = false;
 	img.style.top = y + "px";
 	var y = lastY-10+Math.floor(Math.random()*20);
 	lastY = y;
-	checkBounds();
+	checkBounds(x,y);
 	img.style.left = x + "px";
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
@@ -32,7 +32,7 @@ var done = false;
 	isOverlapping();
 	document.body.appendChild(img);
 	},100);
-function isOverlapping()
+function isOverlapping(x,y)
 {
 		if (x<=rightBound && x>=leftBound)
 	{
