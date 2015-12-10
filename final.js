@@ -14,7 +14,10 @@ var upperBound = window.innerHeight/2+(height/2);
 var lowerBound = window.innerHeight/2-(height/2);
 console.log(leftBound + " " + rightBound);
 console.log(upperBound + " " + lowerBound);
-
+var c=document.getElementById("canv1");
+var ctx=c.getContext("2d");
+ctx.rect(20,20,150,100);
+ctx.stroke();
 var done = false;
 	setInterval(
 	function(){
