@@ -15,6 +15,7 @@ img {
 }
 #Wrapping
 {
+	border: 1px solid #cc3;
     position: absolute;
     visibility: hidden;
     height: auto;
