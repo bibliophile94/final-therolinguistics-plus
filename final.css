@@ -8,6 +8,7 @@ body {
 	background-position:top;
 	background-repeat: vertical-align;
 	display: inline;
+	text-align: center;
 }
 img {
     opacity: 0.4;
