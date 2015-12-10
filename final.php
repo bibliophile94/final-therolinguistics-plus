@@ -37,7 +37,6 @@ echo "Carve Your Message";
 var initialX = Math.floor(Math.random()*screen.width);
 var initialY = Math.floor(Math.random()*screen.height);
 var texts = document.getElementById("Wrapping");
-texts.style.fontSize = fontSize;
 var height = (texts.clientHeight + 1) + "px";
 var width = (texts.clientWidth + 1) + "px";
 var leftBound = window.innerWidth/2-(width/2);
