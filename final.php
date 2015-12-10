@@ -41,9 +41,10 @@ echo $safe_content;
 	var y = Math.floor(Math.random()*screen.height);
 	img.style.left = x + "px";
 	console.log(y);
-	img.setAttribute("src", "message"+Math.floor(Math.random() * (3))+".png");
+	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
 	document.body.appendChild(img);
+	},100);
 </script>
 </body>
 </html>
