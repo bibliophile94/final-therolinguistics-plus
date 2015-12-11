@@ -37,7 +37,7 @@ var done = false;
 		if (y>=lowerBound && y<=upperBound)
 		{
 			var elem = document.getElementById("Wrapping");
-			elem.color = "green";
+			elem.style.color = "green";
 			window.alert("YAAAASSS...the Moss approves");
 			done = true;
 			
