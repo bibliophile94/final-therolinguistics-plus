@@ -3,7 +3,7 @@ var initialY = Math.floor(Math.random()*window.innerHeight);
 var lastX = initialX;
 var lastY = initialY;
 var texts = document.getElementById("Wrapping");
-var height = (texts.clientHeight)-40;
+var height = (texts.clientHeight)*0.9;
 var width = (texts.clientWidth);
 texts.style.visibility = "visible";
 console.log(height);
@@ -12,6 +12,8 @@ var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
 var upperBound = window.innerHeight/2+(height/2);
 var lowerBound = window.innerHeight/2-(height/2);
+texts.style.top = upperbound + "px";
+texts.style.left = leftBound + "px"
 console.log(leftBound + " " + rightBound);
 console.log(upperBound + " " + lowerBound);
 var done = false;
