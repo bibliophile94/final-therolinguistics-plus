@@ -21,10 +21,10 @@ var done = false;
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = lastX-50+Math.floor(Math.random()*100);
+	var x = lastX-30+Math.floor(Math.random()*60);
 	lastX = x;
 	img.style.top = y + "px";
-	var y = lastY-50+Math.floor(Math.random()*100);
+	var y = lastY-30+Math.floor(Math.random()*60);
 	lastY = y;
 	checkBounds(x,y);
 	img.style.left = x + "px";
@@ -46,7 +46,7 @@ var done = false;
 	}
 	document.body.appendChild(img);
 	$(img).hide().fadeIn(1000);
-	},10);
+	},100);
 function checkBounds()
 {
 	if (lastX<0 || lastX>screen.width)
