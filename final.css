@@ -3,7 +3,7 @@ body{
 	border-width: 3px;
 	font-size: 60px;
     font-family: 'Rock Salt', cursive;
-	color: #c68c65;
+	color: #6F361A;
 	background: url("moss2.jpg");
 	background-size: 100%;
 	background-position:top;
@@ -15,7 +15,7 @@ img {
     opacity: 0.5;
 }
 #Wrapping{
-	opacity: 0.5;
+	opacity: 0.9;
 	position: fixed;
 	-webkit-transition: color 2s ease-out;
 	-moz-transition: color 2s ease-out;
