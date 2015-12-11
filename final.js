@@ -46,25 +46,8 @@ var done = false;
 	isOverlapping();
 	}
 	document.body.appendChild(img);
+	$(img).hide().fadeIn(1000);
 	},10);
-function initialMoss()
-{
-	
-}
-function isOverlapping(x,y)
-{
-		if (x<=rightBound && x>=leftBound)
-	{
-		if (y>=lowerBound && y<=upperBound)
-		{
-			var elem = document.getElementById("Wrapping");
-			elem.color = "green";
-			window.alert("YAAAASSS...the Moss approves");
-			done = true;
-			
-		}
-	}
-}
 function checkBounds()
 {
 	if (lastX<0 || lastX>screen.width)

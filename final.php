@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="final.css">
 	<meta charset="utf-8">
