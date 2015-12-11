@@ -43,7 +43,6 @@ var done = false;
 			
 		}
 	}
-	isOverlapping();
 	}
 	document.body.appendChild(img);
 	$(img).hide().fadeIn(1000);
