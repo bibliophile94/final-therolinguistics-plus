@@ -1,5 +1,4 @@
 body{
-	width: 100%;
 	border-width: 3px;
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
@@ -8,7 +7,6 @@ body{
 	background-size: 100%;
 	background-position:top;
 	background-repeat: vertical-align;
-	display: inline;
 	text-align: center;
 }
 img {
