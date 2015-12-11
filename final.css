@@ -15,5 +15,5 @@ img {
     opacity: 0.5;
 }
 #Wrapping{
-	position: absolute;
+	position: fixed;
 }
