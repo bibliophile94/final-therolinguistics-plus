@@ -14,9 +14,9 @@ console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
-var upperBound = window.innerHeight/2+(height/2)-(innerHeight/10);
-var lowerBound = window.innerHeight/2-(height/2)-(innerHeight/10);
-texts.style.top = upperBound + "px";
+var upperBound = window.innerHeight/2+(height/2);
+var lowerBound = window.innerHeight/2-(height/2);
+texts.style.top = Math.round(upperBound-(innerHeight/10)) + "px";
 texts.style.left = leftBound + "px"
 console.log(leftBound + " " + rightBound);
 console.log(upperBound + " " + lowerBound);
