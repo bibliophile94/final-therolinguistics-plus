@@ -12,8 +12,9 @@ body{
 	text-align: center;
 }
 img {
+	position: absolute;
     opacity: 0.5;
 }
 #Wrapping{
-
+	position: absolute;
 }
