@@ -5,7 +5,7 @@
 <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="final.css">
 	<meta charset="utf-8">
-    <title>The Mossier Tree</title>
+    <title>The Second Mossy Tree</title>
     </head>
     <body>
 </div>
