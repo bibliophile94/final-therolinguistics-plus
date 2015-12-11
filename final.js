@@ -31,9 +31,22 @@ var done = false;
 	img.setAttribute("src", "dots.png");
 	img.style.top = y + "px";
 	if (done == false)
+	{
+		if (x<=rightBound && x>=leftBound)
+	{
+		if (y>=lowerBound && y<=upperBound)
+		{
+			var elem = document.getElementById("Wrapping");
+			elem.color = "green";
+			window.alert("YAAAASSS...the Moss approves");
+			done = true;
+			
+		}
+	}
 	isOverlapping();
+	}
 	document.body.appendChild(img);
-	},100);
+	},10);
 function initialMoss()
 {
 	
