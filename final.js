@@ -6,6 +6,8 @@ var texts = document.getElementById("Wrapping");
 var height = (texts.clientHeight);
 var width = (texts.clientWidth);
 console.log($(document).height());
+console.log(window.innerHeight);
+console.log(window.innerWidth);
 texts.style.visibility = "visible";
 console.log(height);
 console.log(width);
