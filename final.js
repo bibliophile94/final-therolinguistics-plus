@@ -5,6 +5,7 @@ var lastY = initialY;
 var texts = document.getElementById("Wrapping");
 var height = (texts.clientHeight);
 var width = (texts.clientWidth);
+console.log($('body').height())
 console.log($(document).height());
 console.log(window.innerHeight);
 console.log(window.innerWidth);
@@ -13,8 +14,8 @@ console.log(height);
 console.log(width);
 var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
-var upperBound = window.innerHeight/2+(height/2);
-var lowerBound = window.innerHeight/2-(height/2);
+var upperBound = window.innerHeight/2+(height/2)-(innerHeight/10);
+var lowerBound = window.innerHeight/2-(height/2)-(innerHeight/10);
 texts.style.top = upperBound + "px";
 texts.style.left = leftBound + "px"
 console.log(leftBound + " " + rightBound);
