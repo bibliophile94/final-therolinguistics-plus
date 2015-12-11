@@ -7,6 +7,7 @@ var bod = document.getElementById("body");
 var height = (texts.clientHeight);
 var width = (texts.clientWidth);
 var headerHeight = (bod.clientHeight);
+console.log(headerHeight);
 texts.style.visibility = "visible";
 console.log(height);
 console.log(width);
