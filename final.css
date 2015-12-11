@@ -1,4 +1,6 @@
 body{
+	border: transparent;
+	border-width: 3px;
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
 	color: #c68c65;
