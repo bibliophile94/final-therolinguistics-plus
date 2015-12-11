@@ -50,7 +50,7 @@ var done = false;
 	}
 	document.body.appendChild(img);
 	$(img).hide().fadeIn(1000);
-	},100);
+	},50);
 function checkBounds()
 {
 	if (lastX<0 || lastX>screen.width)
