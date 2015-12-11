@@ -1,5 +1,6 @@
 body{
-  border-style: dotted;
+	width: 100%
+    border-style: dotted;
 	border-width: 3px;
 	font-size: 60px;
     font-family: 'Homemade Apple', cursive;
