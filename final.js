@@ -12,7 +12,7 @@ var leftBound = window.innerWidth/2-(width/2);
 var rightBound = window.innerWidth/2+(width/2);
 var upperBound = window.innerHeight/2+(height/2);
 var lowerBound = window.innerHeight/2-(height/2);
-texts.style.top = lowerBound + "px";
+texts.style.top = upperBound-200 + "px";
 texts.style.left = leftBound + "px"
 console.log(leftBound + " " + rightBound);
 console.log(upperBound + " " + lowerBound);
