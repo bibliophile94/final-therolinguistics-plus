@@ -21,10 +21,10 @@ var done = false;
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = lastX-25+Math.floor(Math.random()*50);
+	var x = lastX-50+Math.floor(Math.random()*100);
 	lastX = x;
 	img.style.top = y + "px";
-	var y = lastY-25+Math.floor(Math.random()*50);
+	var y = lastY-50+Math.floor(Math.random()*100);
 	lastY = y;
 	checkBounds(x,y);
 	img.style.left = x + "px";
